@@ -1,0 +1,16 @@
+{
+  "name": "vacation-planner",
+  "builds": [
+    {
+      "src": "vacation-planner/package.json",
+      "use": "@now/next"
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "vacation-planner/$1",
+      "continue": true
+    }
+  ]
+}

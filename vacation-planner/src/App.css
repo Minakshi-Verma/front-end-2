@@ -1,0 +1,217 @@
+.App {
+  text-align: center;
+}
+
+.hide {
+  display: none;
+}
+.selected {
+  color: #d74e09;
+  font-size: x-large;
+}
+
+.btn {
+  margin: 3%;
+  padding: 3%;
+  border-radius: 6px;
+  background: #b3cce6;
+  font-size: 0.7rem;
+}
+
+.button {
+  margin: 6%;
+  width: 60%;
+  margin-left: 27%;
+  padding: 2%;
+  background: #c4c4c4;
+  border-radius: 5px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+  margin: 0 auto;
+}
+
+.input {
+  padding: 2%;
+  background: #ffffff;
+  border: 0.5px solid #8a9ba8;
+  border-radius: 6px;
+  margin: 4%;
+}
+
+.comments {
+  width: 50%;
+  min-height: 30vh;
+  background: #ffffff;
+  border: #8a9ba8 1px solid;
+  border-radius: 8px;
+  margin: 2% auto;
+}
+
+.nav-links {
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0.6%;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+}
+
+.nav {
+  margin-bottom: 2%;
+  background: #d74e09;
+  padding: 2%;
+  font-family: Source Sans Pro;
+  font-style: normal;
+  color: white;
+}
+
+.dash {
+  background-image: linear-gradient(
+      rgba(43, 42, 42, 0.2),
+      rgba(43, 42, 32, 0.2)
+    ),
+    url("https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fcdn-image.travelandleisure.com%2Fsites%2Fdefault%2Ffiles%2Fstyles%2F1600x1000%2Fpublic%2F201411-w-worlds-most-visited-tourist-attractions-taj-mahal-agra.jpg%3Fitok%3DheQTAHOF&q=85");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 80vh;
+  background-position: unset;
+}
+
+.vacationCardParent {
+  background-image: linear-gradient(
+      rgba(43, 42, 42, 0.2),
+      rgba(43, 42, 32, 0.2)
+    ),
+    url("https://www.link2ict.org/newsletter/september2013/images/backgrounds/leaves5.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 30vh;
+  background-position: unset;
+  width: 300px;
+  border-radius: 8px;
+}
+
+.vacationList {
+  display: flex;
+  justify-content: space-evenly;
+  border: black;
+  width: 100%;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+
+.vacationCard {
+  min-width: 200px; 
+  min-height: 30vh;
+  margin: 10%;
+  padding: 2% 1% 0 1%;
+  background: #e6e6e6;
+  border-radius: 8px;
+}
+
+.addVacationCard {
+  width: 35%;
+  margin: 0 auto;
+  padding: 2% 3% 3% 2%;
+  border: #00394d 1px solid;
+  border-radius: 8px;
+}
+
+.addVacationCard {
+  width: 35%; 
+  margin: 0 auto;
+  padding: 2% 3% 3% 2%;
+  border: #00394d 1px solid;
+  border-radius: 8px;
+}
+
+.editVacation {
+  width: 35%;
+  border: #00394d 1px solid;
+  margin: 0 auto;
+  padding: 2% 3% 3% 2%;
+  border-radius: 8px;
+}
+
+h1 {
+  color: #002533;
+  font-size: 2.3rem;
+}
+
+h2 {
+  color: #002533;
+  font-size: 1.5rem;
+}
+ .tripCard{
+   width:60%;
+   min-height: 55vh;
+   border: black 2px solid;
+   margin: 0 0 4% 20%; 
+   border-radius: 6px;  
+ }
+ 
+
+ .tripDetails{
+   display: flex;
+   justify-content: space-evenly;
+   width: 75%;
+   margin-left: 15%;
+
+ }
+ .logItBtn{
+  margin: 1%;
+  padding: 0.5%;
+  width: 4%;
+  border-radius: 6px;
+  background: #b3cce6;
+  font-size: 0.7rem;
+
+ }
+ .commentBtn{ 
+  padding: 0.5%;
+  width: 12%;
+  border-radius: 6px;
+  background: #ecf2f9;
+  font-size: 0.7rem;
+
+ }
+/* #userComment{
+  width: 50%;
+  min-height: 20vh;
+  background: #99e6ff;
+  margin: 0 auto;
+  color: rgb(0,37,51);
+  border-radius: 6px;
+} */
+
+
+
+ .smallButton{
+   width: 3%;
+   background:#132639;
+   color: white;
+   padding: 0.5%;
+   border-radius: 6px;
+ }
+ .mediumButton{
+   width: 6%;
+   background:#b3cce6;  
+   border-radius: 6px;
+   padding: 0.5%;
+ }
+
+ .largeButton{
+   width:7%;
+   background:#ecf2f9;
+   border-radius: 6px;
+   padding: 0.5%;
+ }
+
